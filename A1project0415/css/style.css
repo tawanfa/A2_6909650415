@@ -1,160 +1,106 @@
-/* --------------------
-   heeder
--------------------- */
+body {
+  margin: 0;
+  background: white;
+  color: black;
+  font-family: 'Kanit', sans-serif;
+  font-size: 17px;
+}
 
-h1{ 
-    font-family: 'bitcount Prop Single', sans-serif;
-    font-size:  30px;
-    font-weight: normal;
-    text-align: center;
-    background-color: #F09381;
-    margin: auto ;
-    border: 1px solid #F09381;
-    border-radius: 10px;
-    border-size: 0px;
-    width: 100% ;
+#Header h1 {
+  font-family: 'Bitcount Prop Single', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #F09381;
+  border: 30px solid #F09381;
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin: 7px 0 10px;
+}
 
-}   
+#cs100 {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-#Header h1{ 
-    font-family: 'bitcount Prop Single', sans-serif;
-    font-size:  30px;
-    font-weight: normal;
-    text-align: center;
-    background-color: #F09381;
-    border: 30px solid #F09381;
-    border-radius: 10px;
-    border-size: 0px;
-    padding: 20px;
+.simple-card {
+  width: 55%;
+  margin: 0 auto 20px;
+  border: 3px solid #F09381;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.simple-card h2 {
+  background-color: #F09381;
+  font-family: 'Bitcount Prop Single', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+#Aboutme .card-content p {
+  font-size: 19px;
+  margin: 2px 0;
+}
+
+.profile-pic {
+  display: block;
+  width: 300px;
+  max-height: 260px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+}
+
+.card-content h3 {
+  font-size: 21px;
+  margin: 5px 0 12px;
+}
+
+.card-content p {
+  margin-bottom: 10px;
+}
+
+.todo {
+  color: #9b3d2d;
+  background: #fff0ec;
+}
+
+footer {
+  padding: 10px;
+  font-size: 13px;
+}
+
+
+@media (max-width: 768px) {
+  #Header h1 {
+    font-size: 25px;
+    border-width: 20px 10px;
+    padding: 15px 5px;
+  }
+
+  .simple-card {
+    width: 95%;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  #Aboutme .card-content p {
+    font-size: 17px;
+    overflow-wrap: anywhere;
+  }
+
+  .profile-pic {
     width: 100%;
-    margin: auto;
-}
-#cs100{
-    font-size: 12px;
-    text-align: center;
-    font-family: 'Kanit', sans-serif;}
-
-
-/* --------------------
-   about me
--------------------- */
- #Aboutme p {
-    font-family: 'Kanit', sans-serif;
-    font-size:  20px;
-    text-align: center;
-    margin: 0px;
-    border-radius: 10px;
-}
-.Aboutme {
-    border: 3px solid #F09381;
-    margin: 20px;
-    border-radius: 20px;
-    align-items: center;
-    width: 50%;
-    display: block;
-    margin: auto;
-}
-
-
-/* --------------------
-   what i built
--------------------- */
-#What p {
-    font-family: 'Kanit', sans-serif;
-    font-size:  15px;
-    margin: 0px;
-    border-radius: 10px;
-
-}
-
- #What p {
-    font-family: 'Kanit', sans-serif;
-    font-size:  20px;
-    text-align: auto;
-    margin: 0px;
-    border-radius: 10px;
-
- }
- .What {
-    border: 3px solid #F09381;
-    margin: 20px;
-    border-radius: 20px;
-    align-items: center;
-    width: 50%;
-    display: block;
-    margin: auto;
- }
-
- .What .p1 {
-    padding: 20px;
- }
-  
-   
-
-/* --------------------
-   how i built
--------------------- */
-#How p {
-    font-family: 'Kanit', sans-serif;
-    font-size:  15px;
-    margin: 0px;
-    border-radius: 10px;
-}
-
-
-  .How {
-    border: 3px solid #F09381;
-    margin: 2000px;
-    border-radius: 20px;
-    align-items: center;
-    width: 50%;
-    display: block;
-    margin: auto;
+    max-width: 300px;
   }
-  #How p {
-    font-family: 'Kanit', sans-serif;
-    font-size:  20px;
-    text-align: auto;
-    margin: 0px;
-    border-radius: 10px;
-  }
-
-  .How .p1 {
-    padding: 20px;
- }
-
-/* --------------------
-  reflection
--------------------- */
-#Reflection p {
-    font-family: 'Kanit', sans-serif;
-    font-size:  20px;
-    margin: 0px;
-    border-radius: 10px;
 }
-
-li {
-    font-family: 'Kanit', sans-serif;
-    font-size:  20px;
-    margin: 0px;
-    border-radius: 10px;
-}
-
-.Reflection {
-    border: 3px solid #F09381;
-    margin: 20px;
-    border-radius: 20px;
-    align-items: center;
-    width: 50%;
-    display: block;
-    margin: auto;
-    
- }
-
- #Reflection p {
-    font-family: 'Kanit', sans-serif;
-    font-size:  20px;
-    text-align: auto;
-    margin: 0px;
-    border-radius: 10px;
- }

@@ -1,18 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title> My First Learning Portfolio </title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
- <!-- font thai na ja -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Learning Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@400&family=Kanit:wght@300;400;500&display=swap" rel="stylesheet">
  <!-- font eng -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,68 +13,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Coiny&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
+
 <body>
-    <div class="Header" id="Header">
-        <h1> My Learning Portfolio</h1>
-        <p id="cs100"> CS100 ภาคเรียน 1/2569 </p>
-        </div>
-    
-    <br>
-    
-    <div class="Aboutme" id="Aboutme">
-        <h1>About Me</h1>
-        <br>
-        <img src="media\selfiepic.jpg" width="300" height="225" alt="Selfie" style="display: block; margin: 0 auto;">
-        <br>
-    
-        <p> ชื่อ : ตะวันฟ้า ขาวเงิน <p>
-        <p> รหัสนักศึกษา : 6909650415</p>
-        <p> คณะ : คณะวิทยาศาสตร์เเละเทคโนโลยี</p>
-        <p> สาขา : สาขาวิทยาการคอมพิวเตอร์</p>
-        <p> ช่องทางการติดต่อ 
-        <p>Gmail : tawanfa.kha@dome.tu.ac.th </p>
-        <p> เบอร์โทรศัพท์ : 098-406-8724 </p>
-        <p> ig : <a href="https://www.instagram.com/tawanfa__/">tawanfa__</a>
-        <br>
-        <br>
+  <header id="Header" class="container-fluid">
+    <h1>My Learning Portfolio</h1>
+    <p id="cs100">CS100 ภาคเรียน 1/2569</p>
+  </header>
+
+  <main class="container">
+    <section class="simple-card" id="Aboutme">
+      <h2>About Me</h2>
+      <div class="card-content text-center">
+        <img src="media/selfiepic.jpg" class="profile-pic img-fluid" alt="รูปแนะนำตัว">
+        <p>ชื่อ : ตะวันฟ้า ขาวเงิน</p>
+        <p>รหัสนักศึกษา : 6909650415</p>
+        <p>คณะ : คณะวิทยาศาสตร์และเทคโนโลยี</p>
+        <p>สาขา : สาขาวิทยาการคอมพิวเตอร์</p>
+        <p class="mt-3">สิ่งที่สนใจ</p>
+        <p>: คอมพิวเตอร์ เกม กีฬา ดนตรี</p>
         
-        </p>
-    </div>
-    
-    <br>
-     <div class="What" id="What">
-        <h1>What I Built</h1>
-        <p class="p1">ผมสร้างWebsiteที่เกี่ยวกับการเรียนรู้ของผมโดยการสร้างจะมีเครื่องมือที่ใช้คือVisual Studio Code,html,css
-        <br>คำถาม:ในขณะที่เปิดเว็บไซต์จากเครื่องของตนเอง มี client หรือ server เกิดขึ้นแล้วหรือไม่ เพราะเหตุใด
-        <br>>>>เมื่อกดเปิดไฟล์ก็จะเเสดงindexมาซึ่งมีchromeทำหน้าที่เป็นcilentเเต่ว่าไม่มีserverเพราะอ่านไฟล์จากเครื่องโดยตรง</p>
-    </div>
-    <br>
-    <br>
-    <div class="How" id="How">
-        <h1>How I Built It </h1>
-        <p class="p1">ผมสร้างโดยการใช้Visual Studio Codeในการเขียนโค้ดhtmlเเละcss โดยดูวิธีการใช้คำสั่งเเละรูปแบบตามสไลด์ที่อาจารย์สอนเเละนำมาประยุกต์ใช้
-           นอกจากนี้ยังมีการสอบถามเเละค้นหาวิธีทำจาก Ai โมเดลตัวต่างๆว่าจุดไหนสามารถทำอะไรได้บ้าง</p>
-    </div>
-        <br>
-        <br>
+      </div>
+    </section>
 
-    <div class="Reflection" id="Reflection">
-        <h1>Reflection</h1>
-       <ul>
-            <li>ปัญหาหรือความท้าทายที่พบคืออะไร และแก้หรือรับมืออย่างไร</li>
-                <p> >> ปัญหาที่พบคือการใช้คำสั่งต่างๆโดยที่ยังไม่ชำนาญทำให้เกิดความล่าช้า โดยมีวิธีการเเก้ไขคือการฝึกทำบ่อยๆเเละศึกษาเพิ่มเติม</p>
-            <li>จากการทำ A1 นี้ เข้าใจอะไรเกี่ยวกับการพัฒนาเว็บไซต์มากขึ้น</li>
-                <p>>> การใช้ HTML และ CSS ในการสร้างเว็บไซต์</p>
-            <li>หากได้พัฒนางานนี้ต่อ อยากปรับปรุงหรือเพิ่มอะไร และเพราะอะไร</li>
-                <p>>> อยากปรับปรุงการแสดงผลและฟีเจอร์ต่างๆ ให้ดียิ่งขึ้น</p>        
-        </ul>
-    </div> 
+    <section class="simple-card" id="What">
+      <h2>My portfolio</h2>
+      <div class="card-content">
+        <h3>1. CS100 A1 - My First Portfolio</h3>
+          <img src="media/learning port.png" class="profile-pic img-fluid" alt="รูปผลงาน A1">
+        <p><strong>Type:</strong> Course Assignment</p>
+        <p><strong>Date:</strong> 30 สิงหาคม 2569</p>
+        <p><strong>Role:</strong> ผู้สร้างเว็บไซต์</p>
+        <p><strong>Description:</strong> ผมสร้างเว็บไซต์แนะนำตัวเองโดยใช้ HTML และ CSS มีส่วนแนะนำตัวและอธิบายวิธีการสร้างเว็บไซต์</p>
+        <p><strong>Skills:</strong> HTML, CSS</p>
+        <p><strong>What I learned:</strong> HTML ใช้สร้างโครงสร้างเว็บไซต์ ส่วน CSS ใช้ตกแต่งหน้าเว็บ</p>
+        <p><strong>Challenge:</strong> ตอนเริ่มทำยังไม่ค่อยเข้าใจการจัดตำแหน่ง จึงต้องลองปรับค่า CSS หลายครั้ง</p>
+        <p><strong>Next step:</strong> ทำให้เว็บไซต์แสดงผลได้ดีบนโทรศัพท์ด้วย</p>
+           <p><strong>Evidence:</strong>
+            <a href="media/learning port.png"
+             target="_blank"
+             class="btn btn-danger mt-3 mb-3">My First Portfolio</a>
+        
+        <hr>
+        <h3>2. Tiktok</h3>
+        <img src="media/tiktok.png" class="profile-pic img-fluid" alt="รูปผลงาน Tiktok">
+        <p><strong>Type:</strong> Hobby</p>
+        <p><strong>Date:</strong> ตั้งเเต่ มิถุนายน 2569</p>
+        <p><strong>Role:</strong> ผู้ทำคอนเท้นต์</p>
+        <p><strong>Description:</strong> ผมทำคอนเท้นต์เกี่ยวกับเกมValorantที่ผมเล่นเป็นประจำโดยจะตัดเป็นช่วงสั้นๆในตอนเล่นเเล้วมาให้คนดู</p>
+        <p><strong>Skills:</strong> การสร้างคอนเท้นต์, การตัดต่อวิดีโอ</p>
+        <p><strong>What I did:</strong> อัดคลิปเเละหาช่วงที่เล่นเก่งๆมาเเล้วตัดต่อเป็นคลิปสั้น</p>
+        <p><strong>What I learned:</strong> เรียนรู้วิธีการสร้างคอนเท้นต์เเละฝึกสกิลการตัดต่อวิดีโอ</p>
+        <p><strong>Challenge:</strong> การหาเเนวทางที่จะทำให้ช่องมีผู้ติดตามให้มากขึ้น</p>
+        <p><strong>Next step:</strong> เมื่อมีคนดูมากขึ้นก็อยากลองจะสตรีมไลฟ์สดดู</p>
+
+        <p><strong>Evidence:</strong>
+            <a href="https://www.tiktok.com/@SunShy6666"
+             target="_blank"
+             class="btn btn-danger mt-3 mb-3">Tiktok</a>
+       
+        
+      </div>
+    </section>
 
 
+   
+  </main>
 
 
-</p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
