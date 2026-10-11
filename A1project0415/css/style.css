@@ -1,0 +1,160 @@
+/* --------------------
+   heeder
+-------------------- */
+
+h1{ 
+    font-family: 'bitcount Prop Single', sans-serif;
+    font-size:  30px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #F09381;
+    margin: auto ;
+    border: 1px solid #F09381;
+    border-radius: 10px;
+    border-size: 0px;
+    width: 100% ;
+
+}   
+
+#Header h1{ 
+    font-family: 'bitcount Prop Single', sans-serif;
+    font-size:  30px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #F09381;
+    border: 30px solid #F09381;
+    border-radius: 10px;
+    border-size: 0px;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+}
+#cs100{
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;}
+
+
+/* --------------------
+   about me
+-------------------- */
+ #Aboutme p {
+    font-family: 'Kanit', sans-serif;
+    font-size:  20px;
+    text-align: center;
+    margin: 0px;
+    border-radius: 10px;
+}
+.Aboutme {
+    border: 3px solid #F09381;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+/* --------------------
+   what i built
+-------------------- */
+#What p {
+    font-family: 'Kanit', sans-serif;
+    font-size:  15px;
+    margin: 0px;
+    border-radius: 10px;
+
+}
+
+ #What p {
+    font-family: 'Kanit', sans-serif;
+    font-size:  20px;
+    text-align: auto;
+    margin: 0px;
+    border-radius: 10px;
+
+ }
+ .What {
+    border: 3px solid #F09381;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+ }
+
+ .What .p1 {
+    padding: 20px;
+ }
+  
+   
+
+/* --------------------
+   how i built
+-------------------- */
+#How p {
+    font-family: 'Kanit', sans-serif;
+    font-size:  15px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+
+  .How {
+    border: 3px solid #F09381;
+    margin: 2000px;
+    border-radius: 20px;
+    align-items: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+  #How p {
+    font-family: 'Kanit', sans-serif;
+    font-size:  20px;
+    text-align: auto;
+    margin: 0px;
+    border-radius: 10px;
+  }
+
+  .How .p1 {
+    padding: 20px;
+ }
+
+/* --------------------
+  reflection
+-------------------- */
+#Reflection p {
+    font-family: 'Kanit', sans-serif;
+    font-size:  20px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+li {
+    font-family: 'Kanit', sans-serif;
+    font-size:  20px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.Reflection {
+    border: 3px solid #F09381;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+    
+ }
+
+ #Reflection p {
+    font-family: 'Kanit', sans-serif;
+    font-size:  20px;
+    text-align: auto;
+    margin: 0px;
+    border-radius: 10px;
+ }
